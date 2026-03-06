@@ -6,7 +6,7 @@ Test your knowledge of Ghana's geography! This game helps you learn:
 
 · All 16 regions of Ghana  
 · Their capital cities  
-· Geographic locations on the map  
+· Their relative geographic locations on the map  
 
 Accra is pre-placed as an example to get you started!
 
