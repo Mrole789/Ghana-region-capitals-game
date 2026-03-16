@@ -35,10 +35,13 @@ while game_on:
     
     #if the user types 'exit' the game ends and console shows regions or cities you missed
     if answer.lower() == "exit":
-        print("\nRegions or cities you missed:\n")
-        for x in gh_rnc.state:
-            if x not in regions_guessed:
-                print(x)
+        print("\nRegions or cities you missed:")
+        #for x in gh_rnc.state:
+        #    if x not in regions_guessed:
+        #        print(x)
+        
+        missed = [x for x gh_rnc.state if x not in regions_guessed]
+        print(missed)
         break
     
     xcor = 0
