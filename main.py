@@ -40,7 +40,7 @@ while game_on:
         #    if x not in regions_guessed:
         #        print(x)
         
-        missed = [x for x gh_rnc.state if x not in regions_guessed]
+        missed = [x for x in gh_rnc.state if x not in regions_guessed]
         print(missed)
         break
     
